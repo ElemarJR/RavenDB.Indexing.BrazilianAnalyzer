@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playground", "other\Playground\Playground.csproj", "{6149B4C3-2614-4678-BA2C-9981D7245EAE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "other", "other", "{3D3D7B10-D951-4107-8F5D-F6CCF057FF5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5575056B-C7A6-456B-9839-8670BF57925F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{27971CBC-C3A3-4453-B1DE-C7D8F10F7517}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6149B4C3-2614-4678-BA2C-9981D7245EAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6149B4C3-2614-4678-BA2C-9981D7245EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6149B4C3-2614-4678-BA2C-9981D7245EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6149B4C3-2614-4678-BA2C-9981D7245EAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6149B4C3-2614-4678-BA2C-9981D7245EAE} = {3D3D7B10-D951-4107-8F5D-F6CCF057FF5D}
+	EndGlobalSection
+EndGlobal

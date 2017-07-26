@@ -1,6 +1,7 @@
 using System.Linq;
 using Raven.Abstractions.Indexing;
 using Raven.Client.Indexes;
+using RavenDB.Indexing.BrazilianAnalyzer;
 
 namespace Playground
 {
@@ -16,6 +17,7 @@ namespace Playground
                 };
 
             Index(entry => entry.Name, FieldIndexing.Analyzed);
+            Analyze(entry => entry.Name, typeof(RavenBrazilianAnalyzer).AssemblyQualifiedName);
         }
     }
 }

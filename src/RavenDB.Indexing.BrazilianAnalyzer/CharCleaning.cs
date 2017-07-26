@@ -8,6 +8,7 @@ namespace RavenDB.Indexing.BrazilianAnalyzer
         {
             if ((c == 'á') ||
                 (c == 'à') ||
+                (c == 'ä') ||
                 (c == 'â') ||
                 (c == 'ã'))
             {
@@ -24,6 +25,7 @@ namespace RavenDB.Indexing.BrazilianAnalyzer
             }
             if ((c == 'ó') ||
                 (c == 'ô') ||
+                (c == 'ö') ||
                 (c == 'õ'))
             {
                 return 'o';

@@ -59,5 +59,11 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\RavenDB.Indexing.BrazilianAnalyzer\RavenDB.Indexing.BrazilianAnalyzer.csproj">
+      <Project>{f083bc92-e949-498e-bba0-4c9e1391563f}</Project>
+      <Name>RavenDB.Indexing.BrazilianAnalyzer</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
